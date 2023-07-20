@@ -1,0 +1,274 @@
+body{
+    font-family: 'Work Sans', sans-serif; 
+    margin: 0px;
+}
+
+.nav-container{
+    display: flex;
+    background-color: #fff;
+    height: 90px;
+    width: auto; 
+    align-items: center;
+    box-shadow:0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.joystick{
+    width: 60px;
+    height: 30px;
+    
+}
+
+.gamer-container{
+           display: flex;                   
+           width: 400px;
+           height: 80px;
+           align-items: center;
+           gap:10px ;
+           font-size: 25px;
+           position: absolute;
+           left: 12%;
+           
+
+}
+.gamer{
+    color: #0B0223;   
+}
+.G{
+ color: rgb(243, 60, 173);
+ 
+         
+}
+
+
+
+.nav-title{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    width: 200px;
+    justify-content: space-evenly; 
+    position: absolute; 
+    right: 21%;
+    
+}
+.A{
+    color: #010101;
+    text-decoration: none;
+    font-family: none;
+    
+}
+
+.btn-container{
+display: flex;
+font-size: 14px;
+align-items: center;
+background-color: rgba(11, 2, 35, 0.10);
+padding: 5px;
+border-radius: 4px;
+height: 25px;
+gap: 10px;
+font-family: none;
+padding-left: 20px;
+padding-right: 20px;
+position: absolute;
+right: 10%;
+}
+.btn-container>img{
+    width: 16px;
+}
+
+/* main section style */
+
+
+.container{
+    
+    height: 400px;
+    background-image: url('../assets/images/Group\ 18.png'),
+                      url('../assets/images/Vector\ 2.png');
+    background-repeat: no-repeat;
+    background-position:right 14% top 10%,left;
+    background-size: 500px 400px,700px 500px;
+    background-color: #FFF;
+    margin-top: 10px;
+    
+}
+
+.goat-container{
+    
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    top: 20%;
+    left:12%;
+    
+
+}
+.goat-title{
+    color: #0B0223;
+    font-size:35px;
+    text-decoration: none;
+    margin-bottom: 0%;
+    background-position: right;
+    margin-top: 20px;
+
+    
+}
+
+.goat-title-1{
+
+    font-size: 70px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+margin-top: 0%;
+
+}
+
+
+.icon-1{
+    display: flex;
+    font-size: 14px;
+    font-family: none;
+    position: absolute;
+    top: 30%;
+}
+.icon-1>img{
+    width: 15px;
+    gap: 10px;
+    margin-right: 5px;
+    
+}
+
+.icon-2{
+    display: flex;
+    text-transform: lowercase;
+    flex-wrap: wrap;
+    font-size: 14px;
+    font-family: none;
+    position: absolute;
+    top: 35%;
+}
+.icon-2>img{
+    width: 15px;
+    gap: 5px;
+    margin-right: 5px;
+}
+
+.icon-3{
+    display: flex;
+    font-size: 14px;
+    font-family: none;
+    position: absolute;
+    top: 40%;
+}
+.icon-3>img{
+    width: 15px;
+    gap: 5px;
+    margin-right: 5px;
+}
+
+.btn{
+    position: absolute;
+    top: 50%;
+    gap: 10px;
+}
+
+.btn-1{
+    color: #FFF;
+    background-color: #FF42A5;
+    font-size: 12px;
+    width: 80px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    margin-right: 13px;
+}
+.btn-2{
+    color: #FFF;
+    background-color: #4EC5F7;
+    font-size: 12px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+}
+
+.container-bonus{
+    height: 400px;
+    background-image: url('../assets/images/pngwing\ 4.png');
+    background-repeat: no-repeat;
+    background-position: left 20% bottom 20%;
+    background-size:530px 430px;
+    background-color: #ffffff;
+   
+    padding-top: 0px;
+
+}
+
+.container-1{
+    /* border: solid tomato 2px; */
+    
+    height: 400px;
+    text-align: right;
+    position: absolute;
+    right: 10%;
+    margin-top: 40px;
+}
+
+.gamer-container-1{
+    font-size: 33px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.container-1>p{
+    color: #534C64;
+   width: 330px ;
+    
+   height: auto;
+    
+}
+.btn-3{
+    color: #FFF;
+    background-color: #FF42A5;
+    font-size: 12px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+}
+.p{
+    font-size: 14px;
+    font-family: none;
+}
+.p-1{
+    font-size: 16px;
+    font-family: none;
+}
+.p-2{
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
