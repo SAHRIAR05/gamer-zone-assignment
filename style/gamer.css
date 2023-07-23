@@ -253,6 +253,71 @@ background-clip: text;
 
 
 
+ /* mobile responsive */
+
+ /* @media screen and (max-width:576px) {
+    
+      .nav-container{
+        display: grid;
+       grid-template-columns: repeat(1,1fr);
+       width: 100%;
+       height: auto;
+      }
+ } */
+
+
+ .container-3{
+    height: auto;
+    width: 1500px;
+    display: flex;
+    
+    border: solid 2px tomato;
+    
+ }
+ .description{
+justify-self: flex-start;
+/* align-self: flex-end; */
+border: #8758F1 solid 2px;
+width: auto;
+
+align-items: center;
+ }
+ .video{
+    font-size: 16px;
+    display: flex;
+    width: auto;
+    align-items: center;
+   
+ }
+ .img{
+    width: 50%;
+   
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
